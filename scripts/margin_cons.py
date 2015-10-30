@@ -1,0 +1,103 @@
+#!/usr/bin/env python
+from Bio import SeqIO
+import sys
+import vcf
+import subprocess
+from collections import defaultdict
+import os.path
+import operator
+from vcftagprimersites import read_bed_file
+
+#MASKED_POSITIONS = [2282, 9065, 18581, 8928, 2578, 14011, 17142]
+#MASKED_POSITIONS.extend([n for n in xrange(17135, 17169)])
+#MASKED_POSITIONS.extend([n for n in xrange(5742, 5758)])
+
+#MASKED_POSITIONS = [2282, 14011, 5312, 5313]
+MASKED_POSITIONS = [2282]
+
+reference = sys.argv[1]
+vcffile = sys.argv[2]
+bamfile = sys.argv[3]
+primerset = sys.argv[4]
+DEPTH_THRESHOLD = 30
+
+bed = read_bed_file(primerset)
+for primer in bed:
+	MASKED_POSITIONS.extend([n for n in xrange(primer['start'], primer['end'])])
+
+def collect_depths(bamfile):
+	if not os.path.exists(bamfile):
+		raise SystemExit("bamfile %s doesn't exist" % (bamfile,))
+
+	p = subprocess.Popen(['samtools', 'depth', bamfile],
+                             stdout=subprocess.PIPE)
+	out, err = p.communicate()
+	depths = defaultdict(dict)
+	for ln in out.split("\n"):
+        	if ln:
+                	contig, pos, depth = ln.split("\t")
+                	depths[contig][int(pos)] = int(depth)
+	return depths
+
+depths = collect_depths(bamfile)
+
+def report(r, status, allele):
+	idfile = os.path.basename(vcffile).split(".")[0]
+	print >>sys.stderr, "%s\t%s\tstatus\t%s" % (idfile, r.POS, status)
+	print >>sys.stderr, "%s\t%s\tdepth\t%s" % (idfile, r.POS, record.INFO.get('TotalReads', ['n/a']))
+	print >>sys.stderr, "%s\t%s\tfrac\t%s" % (idfile, r.POS, record.INFO.get('BaseCalledFraction', ['n/a']))
+	print >>sys.stderr, "%s\t%s\tallele\t%s" % (idfile, r.POS, allele)
+	print >>sys.stderr, "%s\t%s\tref\t%s" % (idfile, r.POS, record.REF)
+
+cons = ''
+
+seq = list(SeqIO.parse(open(sys.argv[1]), "fasta"))[0]
+cons = list(seq.seq)
+
+for n, c in enumerate(cons):
+	try:
+		depth = depths[seq.id][n+1]
+	except:
+		depth = 0
+
+	if depth < DEPTH_THRESHOLD:
+		cons[n] = 'N'
+
+for mask in MASKED_POSITIONS:
+	cons[mask-1] = 'N'
+
+sett = set()
+vcf_reader = vcf.Reader(open(vcffile, 'r'))
+for record in vcf_reader:
+	if record.ALT[0] != '.':
+		# variant call
+
+		if record.POS in MASKED_POSITIONS:
+			report(record, "masked_manual", "n")
+			continue
+
+		if 'PRIMER' in record.INFO:
+			report(record, "primer_binding_site", "n")
+			cons[record.POS-1] = 'N'
+			continue
+
+		support = float(record.INFO['SupportFraction'][0])
+		total_reads = int(record.INFO['TotalReads'][0])
+		qual = record.QUAL
+
+#		if support >= 0.75 and total_reads > 30:
+		if qual >= 200 and total_reads >= 50:
+			ALT = record.ALT[0]
+			report(record, "variant", ALT)
+
+			sett.add(record.POS)
+			cons[record.POS-1] = str(ALT)
+		else:
+			report(record, "low_qual_variant", "n")
+			cons[record.POS-1] = 'N'
+			continue	
+
+#print >>sys.stderr, str(sett)
+
+print ">%s" % (sys.argv[3])
+print "".join(cons)
