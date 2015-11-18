@@ -6,7 +6,7 @@ from Bio import SeqIO
 #from Bio.SeqRecord import SeqRecord
 from collections import defaultdict
 
-def main():
+def main(args):
 	records = list(SeqIO.parse(sys.stdin, 'fasta'))
 	ids = set([record.id for record in records])
 	lens = set([len(record.seq) for record in records])
@@ -20,7 +20,15 @@ def main():
 		ids_alleles = dict((record.id, record.seq[posn]) for record in records if record.seq[posn] not in ignore)
 		if len(set(ids_alleles.values())) < 2 or (len(set(ids_alleles.values())) is 2 and 'N' in set(ids_alleles.values())):
 			continue
+
+		if args.minfreq:
+			counts = [ids_alleles.values().count('A'), ids_alleles.values().count('G'), ids_alleles.values().count('T'), ids_alleles.values().count('C')]
+			counts.sort(reverse=True)
+			if counts[0] < args.minfreq or counts[1] < args.minfreq:
+				continue
+
 		print >>sys.stderr, "%s\t%s" % (posn+1, ids_alleles.values())
+
 
 		discrim_pos.append(posn)
 		for each in ids_alleles:
@@ -34,4 +42,8 @@ def main():
 		print ">%s\n%s" % (each, discrim[each])
 
 if __name__ == '__main__':
-	main()
+	import argparse
+	parser = argparse.ArgumentParser(description='Process some integers.')
+	parser.add_argument('--minfreq', type=int, help='an integer for the accumulator')
+	args = parser.parse_args()
+	main(args)

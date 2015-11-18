@@ -78,6 +78,8 @@ def layout(n):
 	nstyle['shape'] = 'sphere'
 	nstyle['size'] = 0
 	nstyle['fgcolor'] = 'black'
+	nstyle["hz_line_width"] = 2
+	nstyle["vt_line_width"] = 2
 	n.set_style(nstyle)
 
 	clustering = None
@@ -137,9 +139,10 @@ def main(args):
 	ts.layout_fn = layout
 
 	thick_hz_line = NodeStyle()
-	thick_hz_line["hz_line_width"] = 4
-	t.children[0].set_style(thick_hz_line)
-	t.children[1].set_style(thick_hz_line)
+	thick_hz_line["hz_line_width"] = 8
+	t.set_style(thick_hz_line)
+	#t.children[0].set_style(thick_hz_line)
+	#t.children[1].set_style(thick_hz_line)
 
 	thick_vt_line = NodeStyle()
 	thick_vt_line["vt_line_width"] = 4

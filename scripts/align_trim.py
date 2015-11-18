@@ -102,7 +102,7 @@ for s in infile:
 	p1 = find_primer(s.reference_start, 'F')
 	p2 = find_primer(s.reference_end, 'R')
 
-	print >>sys.stderr, "%s\t%s\t%s\t%s\t%s\t%s" % (s.reference_start, s.reference_end, p1[2]['Primer_ID'], abs(p1[1]), p2[2]['Primer_ID'], abs(p2[1]))
+	print >>sys.stderr, "%s\t%s\t%s_%s\t%s\t%s\t%s\t%s" % (s.reference_start, s.reference_end, p1[2]['Primer_ID'], p2[2]['Primer_ID'], p1[2]['Primer_ID'], abs(p1[1]), p2[2]['Primer_ID'], abs(p2[1]))
 
 	#amp_len = p1['end'] - p2['end']
 

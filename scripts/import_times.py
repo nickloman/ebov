@@ -18,18 +18,27 @@ def get_runs(dataset):
 
 runs = get_runs(sys.argv[2])
 
-for row in runs:
+def import_batch(batch, batch_number):
 	try:
-		fh = open("times/%s.times.txt" % (row['batch'],))
+		fh = open("times/%s.times.txt" % (batch))
 	except:
-		continue
-	print "opened"
+		return
 
 	cols = fh.readline().split("\t")
 
+	if batch_number == 1:
+		batchprefix =''
+	else:
+		batchprefix = '_second_batch'
+
 	cur.execute(
-		"UPDATE runs SET start = ?, end = ?, duration = ?, num_reads_pass = ?, num_reads_fail = ? WHERE ROWID=?",
+		"UPDATE runs SET start%s = ?, end%s = ?, duration%s = ?, num_reads_pass%s = ?, num_reads_fail%s = ? WHERE ROWID=?" % (batchprefix, batchprefix, batchprefix, batchprefix, batchprefix),
 		(cols[2], cols[3], cols[4], cols[0], cols[1], row['ROWID'])
 	)
+
+
+for row in runs:
+	import_batch(row['batch'], 1)
+	import_batch(row['batch2'], 2)
 
 con.commit()

@@ -31,5 +31,9 @@ for row in runs:
 			print sys.argv[3] + " ", 
 		else:
 			print "align.sh ",
-		print "%s %s %s %s_hq %s hq" % \
-		      (ref, row['batch'], row['batch'], row['batch'], batch2)
+		if len(sys.argv) > 4:
+			print "%s %s %s %s_hq %s hq %s" % \
+		   	   (ref, row['batch'], row['batch'], row['batch'], batch2, " ".join(sys.argv[4:]))
+		else:
+			print "%s %s %s %s_hq %s hq" % \
+		   	   (ref, row['batch'], row['batch'], row['batch'], batch2)

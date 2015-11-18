@@ -19,7 +19,7 @@ reference = sys.argv[1]
 vcffile = sys.argv[2]
 bamfile = sys.argv[3]
 primerset = sys.argv[4]
-DEPTH_THRESHOLD = 30
+DEPTH_THRESHOLD = 25
 
 bed = read_bed_file(primerset)
 for primer in bed:
@@ -28,6 +28,8 @@ for primer in bed:
 def collect_depths(bamfile):
 	if not os.path.exists(bamfile):
 		raise SystemExit("bamfile %s doesn't exist" % (bamfile,))
+
+	print >>sys.stderr, bamfile
 
 	p = subprocess.Popen(['samtools', 'depth', bamfile],
                              stdout=subprocess.PIPE)

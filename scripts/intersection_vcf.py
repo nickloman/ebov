@@ -10,7 +10,7 @@ def read_truth_set(fn):
 	for ln in open(fn):
 		cols = ln.rstrip().split("\t")
 		pos = int(cols[0])
-		if pos > MAX_COORD: continue
+	#	if pos > MAX_COORD: continue
 
 		truthset.add(int(cols[0]))
 	return truthset

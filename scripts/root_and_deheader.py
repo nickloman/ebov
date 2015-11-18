@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from ete2 import Tree
+from ete3 import Tree
 import sys
 
 tree = sys.argv[1]

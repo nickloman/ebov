@@ -4,7 +4,7 @@ import os.path
 import sys
 import vcf
 
-MAX_COORD = 18588
+#MAX_COORD = 18588
 #MAX_COORD = 20000
 
 def read_truth_set(fn):
@@ -12,7 +12,7 @@ def read_truth_set(fn):
 	for ln in open(fn):
 		cols = ln.rstrip().split("\t")
 		pos = int(cols[0])
-		if pos > MAX_COORD: continue
+#		if pos > MAX_COORD: continue
 
 		truthset.add(int(cols[0]))
 	return truthset
@@ -21,7 +21,7 @@ def read_vcf(fn):
 	vcfset = {}
 	vcf_reader = vcf.Reader(open(fn, 'r'))
 	for record in vcf_reader:
-		if record.POS > MAX_COORD: continue
+#		if record.POS > MAX_COORD: continue
 		if 'PP' in record.INFO:
 			vcfset[record.POS] = max([float(pp) for pp in record.INFO['PP']])
 		else:

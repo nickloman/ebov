@@ -12,9 +12,9 @@ cur = con.cursor()
 
 def get_runs(dataset):
 	if dataset == 'all':
-        	cur.execute("select * from runs")
+        	cur.execute("select * from runs where include = 'T'")
 	else:
-		cur.execute("select * from runs where runs.dataset = ?", (dataset,))
+		cur.execute("select * from runs where runs.dataset = ? and include = 'T'", (dataset,))
         return cur.fetchall()
 
 runs = get_runs(sys.argv[2])
