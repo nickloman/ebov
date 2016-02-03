@@ -4,8 +4,11 @@ This Github repository is to support the real-time genomic surveillance of the W
 the accompanying publication:
 
 Real-time, portable genome sequencing for Ebola surveillance
+
 Quick J, Loman N, et al.
+
 Nature (2016) doi:10.1038/nature16996
+
 <http://www.nature.com/nature/journal/vaop/ncurrent/full/nature16996.html>
 
 The GitHub repository contains data, scripts and IPython notebooks to assist reproducibility and for others to build on this work for nanopore variant calling analysis.
