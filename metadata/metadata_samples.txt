@@ -1,0 +1,148 @@
+EM_COY_2015_014370|Forecariah|Sikhourou||20.82|2015-04-07|2015-04-18|2015-04-19||19 reactions|||||||1
+EM_COY_2015_015802|Coyah|Maneah|Kalokhoyah|24.34|2015-04-14|2015-04-20|2015-04-20||11 reactions v1|||||||2
+EM_COY_2015_015815|Fria|Doula||26.52|2015-04-14|2015-04-20|2015-04-20||11 reactions v1|||||||3
+EM_GUI_2015_004674|Siguiri||Lero|15.81|2015-03-26|2015-04-20|2015-04-21||11 reactions v1|from GKD||||004674||4
+EM_COY_2015_015972|Forecariah|Farmoriah||18.79|2015-04-20|2015-02-22|2015-04-22||11 reactions v2|||||||5
+EM_COY_2015_015986|Fria|Baguinet||22.34|2015-04-20|2015-04-22|2015-04-22||11 reactions v2|||||||6
+EM_COY_2015_013671|Coyah|Wonkifong||17.27|2015-03-12|2015-04-22|2015-04-23||11 reactions v2|||||||7
+EM_COY_2015_013731|Coyah|Lansanaya||17.88|2015-03-14|2015-04-22|2015-04-23||11 reactions v2|||||||8
+EM_COY_2015_014098|Conakry||Enta Kissosso|20.66|2015-03-26|2015-04-23|2015-04-24||11 reactions v3|||||||9
+EM_COY_2015_014100|Conakry||Enta Kissosso|19.66|2015-03-26|2015-04-23|2015-04-24||11 reactions v3|||||||10
+EM_COY_2015_013857|Forecariah||Pamelap|17.04|2015-03-18|2015-04-24|2015-04-25||11 reactions v3|||||||11
+EM_COY_2015_013962|Forecariah|Morikanya||18.07|2015-03-22|2015-04-24|2015-04-25||11 reactions v3|||||||12
+EM_COY_2015_015980|Forecariah|Allossoyah|Katabé|18.98|2015-04-20|2015-04-24|2015-04-25||11 reactions v3|||||||13
+EM_COY_2015_015982|Forecariah|Doloyah||18.33|2015-04-20|2015-04-24|2015-04-26||11 reactions v3|||||||14
+EM_FORE_2015_216|Forecariah|Farmoriah||19.612|2015-04-30|2015-05-05|2015-05-06||11 reactions v3|||||FCH_2015_216C||16
+EM_FORE_2015_209|Forecariah|Farmoriah||18.36|2015-04-28|2015-05-22|2015-05-23||11 reactions v3|||||FCH_2015_209B||15
+IPDPFHGINSP_GUI_2015_6505|Forecariah|||32|2015-05-03|2015-05-06|2015-05-07||11 reactions v3|||||IPD_2015_6505||17
+EM_COY_2015_016238|Forecariah|Sikhourou|Mangba|18.59|2015-05-03|2015-05-06|2015-05-07||11 reactions v3|||||||18
+EM_COY_2015_016263|Forecariah|Moussayah||17.75|2015-05-04|2015-05-07|2015-05-09||11 reactions v3|||||||19
+EM_COY_2015_016267|Dubreka|Commune Urbaine|Dioumaya|28.05|2015-05-04|2015-05-07|2015-05-09||11 reactions v3|||||||20
+EM_COY_2015_016414|Dubreka|Dembaya|Dembaya|22.16|2015-05-11|2015-05-13|2015-05-14||11 reactions v3|67.5 ng for 6/7/9/10 vs 90 ng others||||||21
+EM_COY_2015_016456|Dubreka|Tanene|Dembaya|17.62|2015-05-12|2015-05-13|2015-05-14||11 reactions v3|67.5 ng for 6/7/9/10 vs 90 ng others||||||23
+EM_COY_2015_016449|Forecariah|Farmoriah|Maferinyah|15.98|2015-05-11|2015-05-13|2015-05-14||11 reactions v3|67.5 ng for 6/7/9/10 vs 90 ng others||||||22
+EM_COY_2015_016483|Boke|Kamsar|Filima centre|21.6|2015-05-13|2015-05-14|2015-05-16||11 reactions v3|67.5 ng for 6/7/9/10 vs 90 ng others||||||26
+EM_COY_2015_016515|Dubreka|Tanene|Dembaya|19.26|2015-05-14|2015-05-14|2015-05-17||11 reactions v3|67.5 ng for 6/7/9/10 vs 90 ng others||||||27
+EM_COY_2015_016531|Dubreka|Tanene|Dembaya|17.32|2015-05-14|2015-05-14|2015-05-18||11 reactions v3|67.5 ng for 6/7/9/10 vs 90 ng others||||||28
+EM_COY_2015_014060|Dubreka|Ansoumania|Fofomere|22.09|2015-03-25|2015-05-14|2015-05-15||11 reactions v3|67.5 ng for 6/7/9/10 vs 90 ng others||||||25
+EM_COY_2015_016236|Forecariah|Sikhourou|Dembuya|23.44|2015-05-03|2015-05-15|2015-05-18||11 reactions v3|67.5 ng for 6/7/9/10 vs 90 ng others||||||30
+EM_COY_2015_016617|Dubreka|Tanene|Dembaya|19.27|2015-05-16|2015-05-17|2015-05-18||11 reactions v3|67.5 ng for 6/7/9/10 vs 90 ng others||||||32
+EM_COY_2015_016278|Forecariah|Kaliah|Bokariah|17.2|2015-05-05|2015-05-17|2015-05-18||11 reactions v3|67.5 ng for 6/7/9/10 vs 90 ng others||||||31
+EM_COY_2015_016642|Forecariah||Doloyah|18.75|2015-05-17|2015-05-17|2015-05-19||11 reactions v3|67.5 ng for 6/7/9/10 vs 90 ng others||||||33
+EM_COY_2015_016293|Forecariah||Dembuya|15.9|2015-05-06|2015-05-18|2015-05-19||11 reactions v3|67.5 ng for 6/7/9/10 vs 90 ng others||||||35
+EM_COY_2015_013576|Coyah||Bonfé|23.49|2015-03-09|2015-05-18|2015-05-19||11 reactions v3|67.5 ng for 6/7/9/10 vs 90 ng others||||||34
+EM_COY_2015_013795|Forecariah|Allassoyah||20.39|2015-03-16|2015-05-15|2015-05-18||11 reactions v3|67.5 ng for 6/7/9/10 vs 90 ng others||||||29
+EM_COY_2015_014102|Conakry||Enta Kissosso|23.04|2015-03-26|2015-05-20|2015-05-21||11 reactions v3|67.5 ng for 6/7/9/10 vs 90 ng others||||||38
+EM_COY_2015_016743|Boke|Kamsar|Bagatain|28.6|2015-05-19|2015-05-20|2015-05-21||11 reactions v3|67.5 ng for 6/7/9/10 vs 90 ng others||||||39
+EM_COY_2015_016800|Dubreka|Tanene|Dixin Bouramaya|20.41|2015-05-20|2015-05-21|2015-05-22||11 reactions v3|||||||41
+EM_COY_2015_016464|Dubreka|Tanene|Dembaya|19.46|2015-05-12|2015-05-13|2015-05-14||11 reactions v3|67.5 ng for 6/7/9/10 vs 90 ng others||||||24
+EM_FORE_2015_343|Forecariah|Allossoyah|Allassoyah centre|29.805|2015-05-11|2015-05-21|2015-05-22||19 rx |50 ng each|||EM_COY_2015_016602|016602R||37
+EM_COY_2015_016854|Dubreka|Tanene|Tanene  |31.52|2015-05-22|2015-05-23|2015-05-24||11 reactions v3|67.5 ng for 6/7/9/10 vs 90 ng others + amplicon 5 divided in 2 (it was too low yield) as in the RX 19 protocol (primer sets 9 and 10), 50 ng of each added||||||48
+EM_COY_2015_014465|Forecariah|Sikhourou||29.24|2015-04-11|2015-05-20|2015-05-21||11 reactions v3|67.5 ng for 6/7/9/10 vs 90 ng others||||||40
+EM_FORE_2015_387|Forecariah|Commune Urbaine|Tatgui II|28.94|2015-05-16|2015-05-21|2015-05-22||11 reactions v3||||EM_COY_2015_016653|||42
+EM_COY_2015_017021|Fria|Banguine||25.99|2015-05-25|2015-05-27|2015-05-29||11 reactions v3|67.5 ng for 6/7/9/10 vs 90 ng others||||||50
+EM_COY_2015_017018|Forecariah|Farmoriah|Taliko|24.05|2015-05-26|2015-05-27|2015-05-31||11 reactions v3|67.5 ng for 6/7/9/10 vs 90 ng others||||||49
+EM_COY_2015_017057|Dubreka|Commune Urbaine|Kagbelen Plateau|31.63|2015-05-27|2015-05-28|2015-05-29||11 reactions v3|67.5 ng for 6/7/9/10 vs 90 ng others||||||51
+EM_COY_2015_016852|Dubreka|Tanene|Tanene  |32.38|2015-05-22|2015-05-28|2015-05-31||11 reactions v3|67.5 ng for 6/7/9/10 vs 90 ng others||||||46
+EM_COY_2015_017091|Boke|Kamsar|Kamsar  |23.7|2015-05-28|2015-05-31|2015-06-01||11 reactions v3|67.5 ng for 6/7/9/10 vs 90 ng others||||||52
+EM_COY_2015_017135|Dubreka|||25.03|2015-05-29|2015-05-31|2015-06-01||11 reactions v3|67.5 ng for 6/7/9/10 vs 90 ng others||||||53
+EM_COY_2015_015984|Fria|Baguinet||31.63|2015-04-20|2015-05-22|2015-05-25||11 reactions v3|67.5 ng for 6/7/9/10 vs 90 ng others||||||45
+EM_COY_2015_017174|Forecariah|Kouliyire||28.72|2015-05-30|2015-06-06|2015-06-05||19 rx |50 ng each||||||55
+EM_COY_2015_017238|Dubreka|||14.68|2015-05-31|2015-06-06|2015-06-05||11 reactions v3|67.5 ng for 6/7/9/10 vs 90 ng others||||||56
+EM_COY_2015_017240|Dubreka|Tanene|Dixinn Bouraya|17.92|2015-05-31|2015-06-05|2015-06-08||11Rx v3 + Rx9 and Rx10 for region 5|50 ng for Rx19.9 and.10, 67.5 ng for 6/7/9/10 vs 90 ng others||||||58
+EM_COY_2015_014261|Forecariah|Maferinyah|Moribaya|28.34|2015-04-02|2015-06-05|2015-06-09||19rx + F33/R35|50ng each||||||59
+EM_FORE_2015_695|Forecariah|Kaliah||24.9|2015-06-07|2015-06-09|2015-06-10||11Rx|67.5 ng for 6/7/9/10 vs 90 ng others|||EM_COY_2015_017498|||60
+EM_FORE_2015_696|Forecariah|Moussayah||20.8|2015-06-07|2015-06-09|2015-06-10||11Rx|67.5 ng for 6/7/9/10 vs 90 ng others|||EM_COY_2015_017499|||61
+EM_FORE_2015_697|Forecariah|Moussayah||19.1|2015-06-07|2015-06-10|2015-06-12||11Rx|67.5 ng for 6/7/9/10 vs 90 ng others|||EM_COY_2015_017500|||62
+EM_COY_2015_017574|Boke|Wakiria|Wakiria|20.76|2015-06-10|2015-06-11|2015-06-12||11Rx|67.5 ng for 6/7/9/10 vs 90 ng others||||||63
+EM_COY_2015_017664|Dubreka|Dixinn|Bouramaya||2015-06-12|2015-06-16|2015-06-17||11Rx|||||||64
+EM_COY_2015_017666|Dubreka|Dixinn|Bouramaya||2015-06-12|2015-06-16|2015-06-17||11Rx|||||||65
+IPDPFHGINSP_GUI_2015_5038|Conakry|Matam|Matam Lido|19.56|2015-04-01|2015-06-17|2015-06-18||11Rx|67.5 ng for 6/7/9/10 vs 90 ng others|||EM_COY_2015_017590|||66
+EM_FORE_2015_781|Forecariah|Moussayah|Doloyah|17.3|2015-06-13|2015-06-18|2015-06-19||11Rx|67.5 ng for 6/7/9/10 vs 90 ng others|||EM_COY_2015_017734|||67
+EM_COY_2015_017788|Dubreka|||19.54|2015-06-16|2015-06-18|2015-06-19||11Rx|67.5 ng for 6/7/9/10 vs 90 ng others||||||68
+EM_COY_2015_017865|Dubreka|Tanene|Dembaya|23.58|2015-06-18|2015-06-19|2015-06-20||11Rx|67.5 ng for 6/7/9/10 vs 90 ng others||||||69
+EM_FORE_2015_816|Forecariah|Sikhourou|Koloteyah|18.9|2015-06-15|2015-06-19|2015-06-21||11Rx|67.5 ng for 6/7/9/10 vs 90 ng others|||EM_COY_2015_017796|||70
+EM_COY_2015_017790|Dubreka|||21.67|2015-06-16|2015-06-21|2015-06-22||11Rx|67.5 ng for 6/7/9/10 vs 90 ng others||||||71
+KG12|Boke|Kamsar||18.5|2015-05-27|2015-06-22|2015-06-23||11Rx|67.5 ng for 6/7/9/10 vs 90 ng others||||||72
+KG90|Boke|Boke|Tamaranssy|18.8|2015-06-19|2015-06-23|2015-06-24||11Rx|67.5 ng for 6/7/9/10 vs 90 ng others||||||73
+EM_FORE_2015_934|Forecariah|Farmoriah||21.6|2015-06-23|2015-06-24|2015-06-25||19rx + F33/R35|50 ng each|||EM_COY_2015_018035|||75
+EM_FORE_2015_896|Forecariah|||22.3|2015-06-20|2015-06-23|2015-06-25||19rx + F33/R35|50 ng each|||EM_COY_2015_017934|||74
+CON-8559|Conakry|Matam|||2015-06-21|2015-06-28|2015-06-29||11Rx|67.5 ng for 6/7/9/10 vs 90 ng others|||8559|||76
+KG45|Boke|Wakiniaya||23.2|2015-06-09|2015-06-29|2015-06-30||11Rx|67.5 ng for 6/7/9/10 vs 90 ng others||||||78
+EM_FORE_2015_1023|Forecariah|Benty||14.61|2015-06-29|2015-06-29|2015-06-30||11Rx|67.5 ng for 6/7/9/10 vs 90 ng others|||EM_COY_2015_018205|||79
+CON-8811|Dubreka|Dixinn|||2015-06-27|2015-06-30|2015-07-01||11Rx|67.5 ng for 6/7/9/10 vs 90 ng others||||8811||80
+EM_FORE_2015_1024|Forecariah|Benty|||2015-06-29|2015-06-30|2015-07-01||11Rx|67.5 ng for 6/7/9/10 vs 90 ng others|||EM_COY_2015_018216|||81
+KG35|Boke|Boke|Tamaranssy|17.8|2015-06-08|2015-06-29|2015-06-30||11Rx|67.5 ng for 6/7/9/10 vs 90 ng others||||KG35_rpt||77
+EM_FORE_2015_1047|Forecariah|Benty|Makale Centre|15.66|2015-06-30|2015-07-01|2015-07-02||11Rx|67.5 ng for 6/7/9/10 vs 90 ng others|||EM_COY_2015_018242|||82
+EM_COY_2015_022059|Forecariah|||20.32|2015-07-02|2015-07-03|2015-07-03||Rx19 + 11rx.10 instead of 19Rx.17|50 ng + 90 ng for 11Rx.10||||||117
+EM_FORE_2015_1140|Forecariah|Benty|Kigbalie|17.01|2015-07-03|2015-07-04|2015-07-04||Rx19 + 11rx.10 |50 ng + 90 ng for 11Rx.10|||EM_COY_2015_022093|||118
+GUI_CTS_2015_0050|Boke|Boke centre||17.00|2015-06-20|2015-07-05|2015-07-05||19Rx|||||20236||83
+KG87|Boke|Boke|Tamarassy|20.3|2015-06-19|2015-07-11|2015-07-13||11Rx|67.5 ng for 6/7/9/10 vs 90 ng others||||||85
+KG88|Boke|Boke|Tamarassy|24.5|2015-06-19|2015-07-11|2015-07-13||11Rx|67.5 ng for 6/7/9/10 vs 90 ng others||||KG88b||86
+EM_FORE_2015_1313|Forecariah|C.U.|Koutoumaliah|19.4|2015-07-10|2015-07-12|2015-07-14||11Rx|67.5 ng for 6/7/9/10 vs 90 ng others|||EM_COY_2015_022275|||88
+KG80|Boke|Boke|Tamarassy|21.5|2015-06-18|2015-07-11|2015-07-13||11Rx|67.5 ng for 6/7/9/10 vs 90 ng others||||||84
+KG91|Boke|Kamsar|Bagataille|20.96|2015-06-20|2015-07-11|2015-07-13||11Rx|67.5 ng for 6/7/9/10 vs 90 ng others||||||87
+EM_FORE_2015_1118|Forecariah|Benty||19.4|2015-07-02|2015-07-13|2015-07-15||11Rx|67.5 ng for 6/7/9/10 vs 90 ng others|||EM_COY_2015_022057|||91
+REDC-GUI-2015-00402|Conakry|Ratoma|Koloma|21|2015-07-08|2015-07-11|2015-07-14||11Rx|67.5 ng for 6/7/9/10 vs 90 ng others||||REDC402||89
+IPDPFHGINSP_GUI_2015_6899|Boke|Kamsar|Filima|24.49|2015-05-14|2015-07-14|2015-07-17||19rx |50 ng each|||EM_COY_2015_017608|||93
+GUI_CTS_2015_0051|Boke|Boke centre||19|2015-06-21|2015-07-13|2015-07-17||11Rx + 19Rx|repeat as the first seq was with a bad flow cell|||29656b|||92
+IPDPFHGINSP_GUI_2015_7070|Forecariah|Sikhourou|Dalouyah centre|23.42|2015-05-18|2015-07-14|2015-07-18||19rx |50 ng each|||EM_COY_2015_017609|||94
+REDC_GUI_2015_00483|Conakry|Ratoma|Koloma|24.4|2015-07-12|2015-07-15|2015-07-18||11Rx|67.5 ng for 6/7/9/10 vs 90 ng others|||REDC483|||98
+REDC-GUI-2015-00502|Conakry|Ratoma|Koloma|24.12|2015-07-13|2015-07-15|2015-07-18||11Rx|67.5 ng for 6/7/9/10 vs 90 ng others|||REDC502|||96
+REDC-GUI-2015-00497|Conakry|Matam|Boussoura|22.05|2015-07-12|2015-07-15|2015-07-18||11Rx|67.5 ng for 6/7/9/10 vs 90 ng others|||REDC497|Extra reads sent 26-07 - REDC469b part2||95
+REDC_GUI_2015_00469|Conakry|Mataur|Bahpot|31.67|2015-07-11|2015-07-16|2015-07-21||19Rx but F33/R36 used|50 ng each + 67.5 F33/R36|||REDC469b|Not found in the last tree?||99
+IPDPFHGINSP_GUI_2015_4786|Conakry|Matoto|Sangoyah Cite Secteur1|23.47|2015-03-26|2015-07-14|2015-07-21||11Rx + 19Rx|Mix of amplicons Rx11 and Rx19|||EM_COY_2015_017586|GUI-CKY-15-0923||100
+EM_FORE_2015_1437|Forecariah|Benty||19.87|2015-07-15|2015-07-21|2015-07-22||Rx11|67.5 ng for 6/7/9/10 vs 90 ng others|||EM_COY_2015_022390|||103
+REDC_GUI_2015_00470|Conakry|Matam|Bonfi|26.8|2015-07-11|2015-07-17|2015-07-23||19Rx + F25/R29 to replace Rx19.14 and F33/R36 to replace Rx19.17|50 and 90 ng used|||REDC470|Extra reads sent 26-07 - REDC469b part2||104
+IPDPFHGINSP_GUI_2015_5117|Dubreka|Dubreka Centre|Ansoumania Plateau|23.2|2015-04-03|2015-07-23|2015-07-24||RX19|50 ng used|||EM_COY_2015_017592|GUI-DUB-15-0238||106
+GUI_CTS_2015_0052|Boke|Kamsar|Bagataille|30.5|2015-06-25|2015-07-23|2015-07-24||Rx19.1-2-3-4 + RX11 rest||||20248|Just realized it is not a first test but a third control from the pateint KG91, pfff||105
+EM_FORE_2015_1079|Forecariah|Benty|Kigbaly|22.68|2015-07-01|2015-07-26|2015-07-29||11Rx|67.5 ng for 6/7/9/10 vs 90 ng others|||EM_COY_2015_022019|||109
+EM_FORE_2015_1076|Forecariah|Benty|Kigbaly|20.65|2015-07-01|2015-07-26|2015-07-29||11Rx|67.5 ng for 6/7/9/10 vs 90 ng others|||EM_COY_2015_022017|||108
+EM_COY_2015_017787|Dubreka|||29.08|2015-06-16|2015-07-23|2015-07-29||19Rx + F29/R32 instead of 15|50 ng each + 100 ng F29/R32||||||107
+IPDPFHGINSP_GUI_2015_4909|Conakry|Matam|Bonfi|24.98|2015-03-29|2015-07-13|2015-07-22||11Rx + 19Rx|Mix of amplicons Rx11 and Rx19. 50, 67.5 and 90 ng used|||EM_COY_2015_017589|GUI-CKY-15-0939||101
+IPDPFHGINSP_GUI_2015_5339|Conakry|Matoto|Yimbayah Soloprimo|27.76|2015-04-08|2015-07-17|2015-07-22||19Rx + F31/R34 to replace Rx19.17|50 and 90 ng used|||EM_COY_2015_017595|GUI-CKY-15-1255||102
+REDC_GUI_2015_00494B|Conakry|Ratoma|Koloma|19|2015-07-12|2015-07-16|2015-07-18||11Rx|67.5 ng for 6/7/9/10 vs 90 ng others|||REDC494B|Not found in the last tree?||97
+EM_FORE_2015_875|Forecariah|Sikhourou|Koloteyah|30.9|2015-06-17|2015-07-26|2015-07-29||19Rx + 11Rx.10 instead of 19Rx.17|50 ng + 90 ng for 11Rx.10|||EM_COY_2015_017883|017883b||110
+REDC_GUI_2015_00589|Conakry|Ratoma|Nongo Carrefour|20.39|2015-07-15|2015-07-29|2015-08-01||11Rx + 19Rx.3 and 19Rx.4 instead of 11Rx.2|67.5 ng for 6/7/9/10 vs 90 ng others + 50ng 19Rx.3+4|||REDC589|||113
+REDC_GUI_2015_00545|Conakry|Ratoma|Koloma|19.92|2015-07-15|2015-07-28|2015-08-01||11Rx|67.5 ng for 6/7/9/10 vs 90 ng others|||REDC545|||112
+REDC_GUI_2015_00534|Forecariah|Forecariah||20.35|2015-07-15|2015-07-28|2015-08-01||11Rx|67.5 ng for 6/7/9/10 vs 90 ng others|||REDC534|||111
+REDC_GUI_2015_00627|Conakry|Matoto|Dadoundy|27.02|2015-07-18|2015-07-29|2015-08-01||11Rx + 19Rx.1 and 19Rx.2 instead of 11Rx.1 + 19Rx.18/19 instead of 11Rx.11 + F25/R29 instead of 11Rx.8|67.5 ng for 6/7/9/10 vs 90 ng others + 50ng 19Rx.3+4+18+19 and 100 ng for F25/R29|||REDC627|||114
+EM_FORE_2015_1415|Forecariah|Allossoyah|Basiah|29.6|2015-07-20|2015-08-01|2015-08-03||19Rx + 11Rx.11 insteaf of 19Rx.19 + 11Rx.10 instead of 19Rx.17|Puzzle of volumes for some amplicons as no gels available unless good concentrations then 50 ng||||FORE1415||115
+EM-FORE_2015_1160|Forecariah|Maferinyah|Guereyah|29|2015-07-13|2015-08-01|2015-08-03||19Rx + F33/R35 + F25/R29 + F29/R32 for those not working|Puzzle of volumes for some amplicons as no gels available unless good concentrations then 50 ng||||1160||116
+EM-FORE-2015-548|Forecariah|Moussayah|Sinkina|17.81|2015-05-27|2015-08-03|2015-08-03||11Rx|90 ng used + 67,5 ng|||EM_COY_2015_022663|FORE548||120
+REDC_GUI_2015_00576|Conakry|Ratoma|Nassouroulaye|26.29|2015-07-17|2015-07-29|2015-08-03||11rX +F25/R29|67.5 ng for 6/7/9/10 vs 90 ng others and 100 ng F25/R29||||REDC574||119
+EM-FORE-2015-631|Forecariah|Moussayah||17.81|2015-06-02|2015-08-04|2015-08-04||11Rx|90 ng used + 67,5 ng|||EM_COY_2015_022662|FCH542||121
+EM-FORE-2015-838|Forecariah|Farmoriah|Fanye|22.78|2015-06-16|2015-08-04|2015-08-04||11Rx|90 ng used + 67,5 ng|||EM_COY_2015_022685|FORE838||123
+EM-FORE-2015-664|Forecariah|Moussayah|Yaworeah|13.75|2015-06-04|2015-08-04|2015-08-04||11Rx|90 ng used + 67,5 ng|||EM_COY_2015_022665|FCH549||122
+EM-FORE-2015-1414|Forecariah|Benty|M_gbale|22.08|2015-07-13|2015-08-05|2015-08-05||11Rx|90 ng used + 67,5 ng|||EM_COY_2015_022658|FCH1019||125
+EM-FORE-2015-669|Forecariah|Moussayah||25.02|2015-06-05|2015-08-05|2015-08-05||19Rx|50 ng each|||EM_COY_2015_022664|FCH547||124
+CON-10193|Conakry|Matam||19.5|2015-08-03|2015-08-06|2015-08-06||11Rx|50 ng each||||IPD10193||126
+EM_FORE_2015-1789|Forecariah|Moussayah|Doto|26.29|2015-08-03|2015-08-11|2015-08-12||19Rx + 11Rx10 + 19Rx21+22|50 ng each + 90 ng for longer fragments||||FORE1789||127
+EM_FORE_2015-1971|Forecariah|Moussayah|Doto Center|21.05|2015-08-14|2015-08-15|2015-08-15||11Rx|||||FORE002212||128
+REDC_GUI_2015_01285|Conakry|Ratoma|Sonfonia Gare II|18.61|2015-08-24|2015-08-30|2015-08-30|2015-08-31|11Rx|||||REDC_01285||129
+CON-11010|Conakry|Ratoma||26|2015-08-23|2015-08-30|2015-08-31|2015-08-31|11Rx|||||CON11010||130
+CON-10512|Conakry|Matam||23.87|2015-08-11|2015-09-02|2015-09-02||11Rx|||||||131
+CON-10590|Conakry|Matam||18.66|2015-08-13|2015-08-31|2015-09-02||11Rx|||||||132
+CON-10786|Conakry|Ratoma||24.26|2015-08-17|2015-09-01|2015-09-02||11Rx|||||||133
+EM_COY_2015_023747|Dubreka|Samatran||23.36|2015-09-09|2015-09-10|2015-09-11|2015-09-11|11Rx|||||||136
+KG167|Boke|Boke|Dabis Kasongony|20|2015-06-29|2015-09-12|2015-09-13|2015-09-13|11Rx|||||KG167||137
+KG168|Boke|Boke|Tamarannsy|20.66|2015-06-29|2015-09-13|2015-09-14|2015-09-14|11Rx|||||KG168||138
+EM_FORE_2015-2417|Forecariah|Forecariah|Kitrin||2015-09-15|2015-09-19|2015-09-20|2015-09-29|11Rx|||||FCH1785_S||145
+EM_COY_2015_023888|Dubreka|Samatran||35.65|2015-09-15|2015-09-18|2015-09-15|2015-09-15|19Rx|||||023888||142
+EM_FORE_2015-2531|Forecariah|Forecariah|Tana|27.67|2015-09-26|2015-09-27|2015-09-27|2015-09-27|19Rx|||||FCH_729||146
+EM_FORE_2015-2533|Forecariah|Forecariah|Tana|19.4|2015-09-26|2015-09-27|2015-09-28|2015-09-27|11Rx|||||FCH_730||147
+EM_FORE_2015-2547|Forecariah|Forecariah|Tana|18.14|2015-09-26|2015-09-27|2015-09-28|2015-09-27|19Rx|||||FCH_731||148
+EM_FORE_2015-2549|Forecariah|Forecariah|Tana|26.85|2015-09-26|2015-09-27|2015-09-29|2015-09-27|19Rx|||||FCH_732||149
+CON12930|Conakry|Ratoma|Sonfonia|21.5|2015-10-13|2015-10-14|2015-10-15|2015-10-15|11Rx|||||CON12930||150
+076534|Macenta||||2014-11-01|||||||||||152
+076533|Macenta||||2014-11-01|||||||||||153
+076383|Kerouane||||2014-10-26|||||||||||154
+078416|Macenta||||2014-11-24|||||||||||155
+076769|Kerouane||||2014-11-08|||||||||||156
+EM_FORE_2015_2878|Forecariah|Kaleah|Kindoyah|16.67|2015-10-24|2015-10-24|2015-10-25|2015-10-25||||||FORE_2878||159
+EM_FORE_2015_2781|Forecariah|Kaleah|Kondeyah|16.27|2015-10-13|2015-10-15|2015-10-16|2015-10-16|11Rx|||||FORE_2781||151
+REDC_GUI_2015_02242|Forecariah|Forecariah|Kindoyah|14.6|2015-10-24|2015-10-26|2015-10-19|2015-10-19|||||EM_COY_2015_027636|||160
+REDC_GUI_2015_01408|Conakry|Ratoma|Dar Es Salam 2|18.35|2015-09-01|2015-10-29|2015-10-30|2015-10-30||||||||161
+REDC_GUI_2015_01323|Conakry|Ratoma|Dar Es Salam|25.67|2015-08-27|2015-10-29|2015-10-30|2015-10-30||||||||162
+REDC_GUI_2015_01165|Conakry|Ratoma|Kaporo rails|22.68|2015-08-18|2015-10-29|2015-10-30|2015-10-30||||||||163
+DSTL-Zaire-Ebolavirus|Unknown|||||||||||||||164

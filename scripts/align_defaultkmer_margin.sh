@@ -1,4 +1,5 @@
 #!/bin/bash -x
+set -e
 
 ref_prefix=$1
 sample=$2
@@ -51,7 +52,7 @@ marginAlign "$sample_tag".fastq ../refs/"$ref_prefix".fasta "$ref_prefix"_"$samp
 align_trim.py < "$ref_prefix"_"$sample_tag".sam | samtools view -bS - | samtools sort - "$ref_prefix"_"$sample_tag"_marginalign.sorted
 samtools index "$ref_prefix"_"$sample_tag"_marginalign.sorted.bam
 
-rm "$sample_tag".fasta.fast5.fofn
+rm -f "$sample_tag".fasta.fast5.fofn
 nanopolish eventalign --reads "$sample_tag".fasta -b "$ref_prefix"_"$sample_tag"_marginalign.sorted.bam -g ../refs/"$ref_prefix".fasta --sam | samtools view -bS - | samtools sort - "$ref_prefix"_"$sample_tag"_np.sorted
 samtools index "$ref_prefix"_"$sample_tag"_np.sorted.bam
 nanopolish variants --models-fofn offset_models.fofn --progress -t 1 --reads "$sample_tag".fasta -o np_"$ref_prefix"_"$sample_tag".vcf -b "$ref_prefix"_"$sample_tag"_marginalign.sorted.bam -e "$ref_prefix"_"$sample_tag"_np.sorted.bam -g ../refs/"$ref_prefix".fasta -vv -w "EM_079517:0-20000" --snp
