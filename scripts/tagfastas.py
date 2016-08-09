@@ -10,7 +10,7 @@ con.row_factory = sqlite3.Row
 cur = con.cursor()
 
 def lookup_sample(sample):
-	cur.execute("select * from samples, runs where runs.Batch = ? and runs.sample_fk = samples.rowid", (sample,))
+	cur.execute("select * from samples, runs where runs.Batch = ? and runs.sample_fk = samples.id", (sample,))
 	row = cur.fetchone()
 	return row
 
