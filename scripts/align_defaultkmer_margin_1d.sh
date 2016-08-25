@@ -54,5 +54,5 @@ samtools index "$ref_prefix"_"$sample_tag"_marginalign.sorted.bam
 rm "$sample_tag".fasta.fast5.fofn
 nanopolish eventalign --reads "$sample_tag".fasta -b "$ref_prefix"_"$sample_tag"_marginalign.sorted.bam -g ../refs/"$ref_prefix".fasta --sam | samtools view -bS - | samtools sort - "$ref_prefix"_"$sample_tag"_np.sorted
 samtools index "$ref_prefix"_"$sample_tag"_np.sorted.bam
-nanopolish variants --models-fofn offset_models.fofn --progress -t 1 --reads "$sample_tag".fasta -o np_"$ref_prefix"_"$sample_tag".vcf -b "$ref_prefix"_"$sample_tag"_marginalign.sorted.bam -e "$ref_prefix"_"$sample_tag"_np.sorted.bam -g ../refs/"$ref_prefix".fasta -vv -w "EM_079517:0-20000" --snp
+nanopolish variants --models-fofn offset_models.fofn -m 0.4 --progress -t 1 --reads "$sample_tag".fasta -o np_"$ref_prefix"_"$sample_tag".vcf -b "$ref_prefix"_"$sample_tag"_marginalign.sorted.bam -e "$ref_prefix"_"$sample_tag"_np.sorted.bam -g ../refs/"$ref_prefix".fasta -vv -w "EM_079517:0-20000" --snp
 

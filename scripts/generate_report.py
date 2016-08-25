@@ -23,7 +23,7 @@ clusters = get_clusters(prefix, dist)
 report = """
 # Real-time Ebola surveillance in Guinea 2015
 
-## Report date: 31st October 2015
+## Report date: 16th January 2016
 
 ### International context
 

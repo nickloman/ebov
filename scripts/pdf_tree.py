@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import sys
+#sys.path.append('/mnt/ebola/ebov/bin/ete')
 
 reload(sys)
 sys.setdefaultencoding( 'ISO8859-1' )

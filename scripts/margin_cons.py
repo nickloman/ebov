@@ -8,17 +8,13 @@ import os.path
 import operator
 from vcftagprimersites import read_bed_file
 
-#MASKED_POSITIONS = [2282, 9065, 18581, 8928, 2578, 14011, 17142]
-#MASKED_POSITIONS.extend([n for n in xrange(17135, 17169)])
-#MASKED_POSITIONS.extend([n for n in xrange(5742, 5758)])
-
-#MASKED_POSITIONS = [2282, 14011, 5312, 5313]
 MASKED_POSITIONS = [2282]
 
 reference = sys.argv[1]
 vcffile = sys.argv[2]
 bamfile = sys.argv[3]
 primerset = sys.argv[4]
+
 DEPTH_THRESHOLD = 25
 
 bed = read_bed_file(primerset)
