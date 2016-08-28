@@ -110,6 +110,7 @@ for s in infile:
 	#print >>sys.stderr, s.reference_start, p1[2]['end']
 	#print >>sys.stderr, s.reference_end, p2[2]['start']
 
+	"""
 	if p1[0] < 50:
 		if s.reference_start < p1[2]['start'] - 1:
 	#		trim(s, p1[2]['end']-1, 0)
@@ -123,8 +124,14 @@ for s in infile:
 			trim(s, p2[2]['end']-1, 1)
 	else:
 		trim(s, s.reference_end - 20, 1)
+	"""
 
-#	trim(s, 50, 0)
-#	trim(s, 50, 1)
+	try:
+		trim(s, s.reference_start + 20, 0)
+		trim(s, s.reference_end - 20, 1)
+
+		outfile.write(s)
+	except Exception:
+		pass
 
 	outfile.write(s)
